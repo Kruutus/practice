@@ -1,0 +1,25 @@
+.container {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: .5em;
+    border-radius: 4px;
+    min-width: 300px;
+}
+
+.label {
+    font-size: 15px;
+    text-align: left;
+}
+
+.button {
+    padding: 0.5em;
+    margin-top: 1em;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #1976d2;
+    color: white;
+}
