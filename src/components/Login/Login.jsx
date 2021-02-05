@@ -29,13 +29,13 @@ const Login = ({userName, setUserName, password, setPassword}) => {
 			</div>
 			<div>
 				<label className="label">Jegyezd meg a jelszavam
-					<input type="checkbox" name="password" chacked="" />
+					<input type="checkbox" name="password" />
 				</label>
 			</div>
 			<button className="button">
 				Bejelentkezés
 			</button>
-			<a className="label" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Elfelejtettem a jelszavam</a>
+			<a className="link" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Elfelejtettem a jelszavam</a>
 		</div>
 )};
 

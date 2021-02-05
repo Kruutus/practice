@@ -1,11 +1,10 @@
 import { React } from "react";
+import './Footer.css';
 
-const Footer = () => {
-    return(
-        <div>
-            ©Davco 2021
-        </div>
-    )
-};
+const Footer = () => (
+  <div className="Footer">
+    ©Davco 2021
+  </div>
+);
 
 export default Footer;
